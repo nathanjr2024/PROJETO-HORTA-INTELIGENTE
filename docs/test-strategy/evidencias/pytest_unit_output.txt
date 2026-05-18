@@ -1,0 +1,44 @@
+============================================================
+  EVIDÊNCIA DE EXECUÇÃO — Testes Unitários Horta Inteligente
+  Arquivo: docs/test-strategy/evidencias/pytest_unit_output.txt
+  Data: 2026-05-17
+  Comando: pytest tests/unit/test_unit_irrigacao.py -v
+============================================================
+
+Ambiente:
+  Python      : 3.12.3
+  pytest      : 9.0.3
+  API alvo    : n/a (testes unitários, sem dependência de rede)
+
+------------------------------------------------------------
+
+platform linux -- Python 3.12.3, pytest-9.0.3, pluggy-1.6.0
+rootdir: /PROJETO-HORTA-INTELIGENTE
+collected 15 items
+
+tests/unit/test_unit_irrigacao.py::test_irriga_quando_solo_esta_seco PASSED          [  6%]
+tests/unit/test_unit_irrigacao.py::test_nao_irriga_quando_solo_esta_umido PASSED     [ 13%]
+tests/unit/test_unit_irrigacao.py::test_nao_irriga_quando_umidade_igual_ao_threshold PASSED [ 20%]
+tests/unit/test_unit_irrigacao.py::test_irriga_com_solo_completamente_seco PASSED    [ 26%]
+tests/unit/test_unit_irrigacao.py::test_nao_irriga_com_solo_completamente_encharcado PASSED [ 33%]
+tests/unit/test_unit_irrigacao.py::test_irriga_quando_muito_proximo_do_limite PASSED [ 40%]
+tests/unit/test_unit_irrigacao.py::test_nao_irriga_quando_pouquinho_acima_do_limite PASSED [ 46%]
+tests/unit/test_unit_irrigacao.py::test_threshold_normal_e_aceito PASSED             [ 53%]
+tests/unit/test_unit_irrigacao.py::test_threshold_zero_e_valido PASSED              [ 60%]
+tests/unit/test_unit_irrigacao.py::test_threshold_cem_e_valido PASSED               [ 66%]
+tests/unit/test_unit_irrigacao.py::test_threshold_decimal_e_aceito PASSED           [ 73%]
+tests/unit/test_unit_irrigacao.py::test_threshold_negativo_e_rejeitado PASSED       [ 80%]
+tests/unit/test_unit_irrigacao.py::test_threshold_acima_de_100_e_rejeitado PASSED   [ 86%]
+tests/unit/test_unit_irrigacao.py::test_threshold_string_e_rejeitado PASSED         [ 93%]
+tests/unit/test_unit_irrigacao.py::test_threshold_none_e_rejeitado PASSED           [100%]
+
+------------------------------------------------------------
+
+15 passed in 0.02s
+
+============================================================
+  RESULTADO: 15/15 testes passaram
+  Duração total: 0.02s
+  Âncora na matriz: UC-02 (deve_irrigar) e UC-04 (validar_threshold)
+  Código do teste: tests/unit/test_unit_irrigacao.py
+============================================================
