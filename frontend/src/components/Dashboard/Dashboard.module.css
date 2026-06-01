@@ -1,0 +1,295 @@
+.container {
+  min-height: 100vh;
+  background: #1a1f2e;
+  color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ───────────────────────────────────────────────────────────────── */
+
+.header {
+  background: #0f172a;
+  border-bottom: 1px solid #1e293b;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #4ade80;
+}
+
+.subtitulo {
+  font-size: 0.72rem;
+  color: #64748b;
+  margin-top: 2px;
+  letter-spacing: 0.04em;
+}
+
+.timestamp {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+/* ── Layout principal ─────────────────────────────────────────────────────── */
+
+.main {
+  flex: 1;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.secaoInferior {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 16px;
+  align-items: start;
+}
+
+.colunaGrafico {
+  min-width: 0;
+}
+
+.colunaLateral {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ── Seção ────────────────────────────────────────────────────────────────── */
+
+.secaoHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.secaoTitulo {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.ucTag {
+  font-size: 0.65rem;
+  background: #1e3a2f;
+  color: #4ade80;
+  border: 1px solid #166534;
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-weight: 600;
+}
+
+/* ── Grid de sensores ─────────────────────────────────────────────────────── */
+
+.sensorGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+/* ── Card ─────────────────────────────────────────────────────────────────── */
+
+.card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: border-color 0.2s;
+}
+
+.cardOffline {
+  border-color: #78350f;
+  background: #0f1623;
+}
+
+.cardIrrigando {
+  border-color: #166534;
+  background: #0a1a10;
+}
+
+.cardIcon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.cardTitulo {
+  font-size: 0.72rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+
+.cardValor {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #e2e8f0;
+}
+
+.badgeOffline {
+  display: inline-block;
+  font-size: 0.65rem;
+  background: #451a03;
+  color: #fb923c;
+  border: 1px solid #92400e;
+  border-radius: 4px;
+  padding: 1px 6px;
+  margin-top: 4px;
+}
+
+/* ── Gráfico ──────────────────────────────────────────────────────────────── */
+
+.chartWrapper {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.chartTitulo {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ── Irrigação ────────────────────────────────────────────────────────────── */
+
+.irrigacaoHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.bombaIndicador {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.bombaLigada {
+  background: #4ade80;
+  box-shadow: 0 0 6px #4ade80;
+}
+
+.bombaDesligada {
+  background: #475569;
+}
+
+.bombaLabel {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.irrigacaoModo {
+  font-size: 0.72rem;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+.alertaCritico {
+  font-size: 0.75rem;
+  color: #fbbf24;
+  margin-top: 8px;
+  padding: 6px 8px;
+  background: #1c1508;
+  border: 1px solid #92400e;
+  border-radius: 6px;
+}
+
+/* ── Estado de erro ───────────────────────────────────────────────────────── */
+
+.erroBanner {
+  background: #1a0a0a;
+  border: 1px solid #7f1d1d;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  color: #fca5a5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.erroDetalhe {
+  font-size: 0.78rem;
+  color: #94a3b8;
+}
+
+.btnRetentar {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #e2e8f0;
+  padding: 8px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.btnRetentar:hover {
+  background: #334155;
+}
+
+/* ── Banner parcial ───────────────────────────────────────────────────────── */
+
+.alertaParcial {
+  background: #1c1508;
+  border-bottom: 1px solid #92400e;
+  color: #fbbf24;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 6px;
+}
+
+/* ── Skeleton (loading) ───────────────────────────────────────────────────── */
+
+.skeleton {
+  background: linear-gradient(90deg, #1e293b 25%, #273449 50%, #1e293b 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-color: transparent !important;
+  min-height: 80px;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ── Responsividade ───────────────────────────────────────────────────────── */
+
+@media (max-width: 900px) {
+  .sensorGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .secaoInferior {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .sensorGrid {
+    grid-template-columns: 1fr;
+  }
+  .main {
+    padding: 12px 16px;
+  }
+}
