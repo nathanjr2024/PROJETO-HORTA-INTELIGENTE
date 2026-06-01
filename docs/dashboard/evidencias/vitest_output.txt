@@ -1,0 +1,13 @@
+
+ RUN  v1.6.1 /home/nathanj/UNASP/PROJETO-HORTA-INTELIGENTE/frontend
+
+ ✓ src/components/Dashboard/Dashboard.test.jsx > Dashboard — estado success > exibe valores dos sensores quando dados chegam com sucesso
+ ✓ src/components/Dashboard/Dashboard.test.jsx > Dashboard — estado loading > exibe skeletons enquanto os dados estão sendo carregados
+ ✓ src/components/Dashboard/Dashboard.test.jsx > Dashboard — estado error > exibe banner de erro com botão de retentar quando o fetch falha
+ ✓ src/components/Dashboard/Dashboard.test.jsx > Dashboard — estado partial (sensor offline) > exibe badge "sensor offline" quando campo crítico está nulo
+
+ Test Files  1 passed (1)
+      Tests  4 passed (4)
+   Start at  21:14:46
+   Duration  1.22s (transform 121ms, setup 49ms, collect 348ms, tests 90ms, environment 319ms, prepare 108ms)
+
