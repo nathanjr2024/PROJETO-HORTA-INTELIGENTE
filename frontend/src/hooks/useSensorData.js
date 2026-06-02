@@ -1,7 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
-// Para usar a API real: substituir a linha abaixo por:
-// import { fetchSensorData } from '../services/api.js'
-import { fetchSensorData, MOCK_HISTORICO, MOCK_THRESHOLD } from '../services/mockApi.js'
+import { fetchSensorData } from '../services/api.js'
+import { MOCK_HISTORICO, MOCK_THRESHOLD } from '../services/mockApi.js'
 
 const POLLING_INTERVAL_MS = 30_000
 
