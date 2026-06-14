@@ -44,3 +44,47 @@ export async function acionarIrrigacao(ligar) {
     statusAtual: ligar ? 'LIGADO' : 'DESLIGADO',
   }
 }
+
+// ── UC-03: Controle Manual ────────────────────────────────────────────────────
+export let MOCK_BOMBA_STATUS = 'DESLIGADO'
+
+export const MOCK_LOG_IRRIGACOES = [
+  { id: 1, timestampInicio: '2026-06-14 08:30:00', duracao_min: 4, acionadoPor: 'automatico' },
+  { id: 2, timestampInicio: '2026-06-14 05:12:00', duracao_min: 5, acionadoPor: 'automatico' },
+  { id: 3, timestampInicio: '2026-06-13 14:47:00', duracao_min: 2, acionadoPor: 'manual' },
+]
+
+export async function toggleBomba(ligar) {
+  await new Promise((resolve) => setTimeout(resolve, 500))
+  MOCK_BOMBA_STATUS = ligar ? 'LIGADO' : 'DESLIGADO'
+  const entry = {
+    id: Date.now(),
+    timestampInicio: new Date().toISOString().replace('T', ' ').slice(0, 19),
+    duracao_min: null,
+    acionadoPor: 'manual',
+  }
+  MOCK_LOG_IRRIGACOES.unshift(entry)
+  return { statusAtual: MOCK_BOMBA_STATUS, log: entry }
+}
+
+export async function fetchBombaStatus() {
+  await new Promise((resolve) => setTimeout(resolve, 600))
+  return { statusAtual: MOCK_BOMBA_STATUS, log: [...MOCK_LOG_IRRIGACOES] }
+}
+
+// ── UC-05: Histórico ──────────────────────────────────────────────────────────
+import historico24h from './data/historico-24h.json'
+import historico7d from './data/historico-7d.json'
+import historico30d from './data/historico-30d.json'
+import irrigacoesData from './data/irrigacoes.json'
+
+export async function fetchHistorico(periodo) {
+  await new Promise((resolve) => setTimeout(resolve, 700))
+  const mapa = { '24h': historico24h, '7d': historico7d, '30d': historico30d }
+  return mapa[periodo] ?? historico24h
+}
+
+export async function fetchIrrigacoesHistorico() {
+  await new Promise((resolve) => setTimeout(resolve, 400))
+  return irrigacoesData
+}
