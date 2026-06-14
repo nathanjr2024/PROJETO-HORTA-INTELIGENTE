@@ -1,0 +1,269 @@
+.container {
+  min-height: 100vh;
+  background: #1a1f2e;
+  color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #0f172a;
+  border-bottom: 1px solid #1e293b;
+  padding: 12px 24px;
+}
+
+.titulo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #38bdf8;
+}
+
+.subtitulo {
+  font-size: 0.72rem;
+  color: #64748b;
+  margin-top: 2px;
+  letter-spacing: 0.04em;
+}
+
+.main {
+  flex: 1;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 560px;
+}
+
+/* ── Seção ── */
+.secaoHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.secaoTitulo {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.secaoTituloLog {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+
+.ucTag {
+  font-size: 0.65rem;
+  background: #0c2233;
+  color: #38bdf8;
+  border: 1px solid #0284c7;
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-weight: 600;
+}
+
+/* ── Status card ── */
+.statusCard {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+
+.statusRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.indicador {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.ligado {
+  background: #4ade80;
+  box-shadow: 0 0 8px #4ade80;
+}
+
+.desligado {
+  background: #475569;
+}
+
+.statusLabel {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #94a3b8;
+}
+
+.statusLigado {
+  color: #4ade80;
+}
+
+.latenciaAviso {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+/* ── Botão de acionamento ── */
+.btnAcionar {
+  border: none;
+  border-radius: 10px;
+  padding: 16px 28px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+  letter-spacing: 0.02em;
+}
+
+.btnLigar {
+  background: #166534;
+  color: #dcfce7;
+}
+
+.btnLigar:hover:not(:disabled) {
+  background: #15803d;
+}
+
+.btnDesligar {
+  background: #7f1d1d;
+  color: #fee2e2;
+}
+
+.btnDesligar:hover:not(:disabled) {
+  background: #991b1b;
+}
+
+.btnAcionar:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ── Banner erro de ação ── */
+.acaoErroBanner {
+  background: #1a0a0a;
+  border: 1px solid #7f1d1d;
+  border-radius: 8px;
+  color: #fca5a5;
+  padding: 10px 16px;
+  font-size: 0.85rem;
+}
+
+/* ── Tabela de log ── */
+.tabelaWrapper {
+  overflow-x: auto;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+.tabela th {
+  text-align: left;
+  padding: 8px 12px;
+  color: #64748b;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid #1e293b;
+}
+
+.tabela td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #1e293b;
+  color: #cbd5e1;
+}
+
+.badge {
+  font-size: 0.7rem;
+  border-radius: 4px;
+  padding: 2px 7px;
+  font-weight: 600;
+}
+
+.badgeManual {
+  background: #1e3a2f;
+  color: #4ade80;
+  border: 1px solid #166534;
+}
+
+.badgeAuto {
+  background: #1e293b;
+  color: #94a3b8;
+  border: 1px solid #334155;
+}
+
+.vazio {
+  color: #475569;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 24px 0;
+}
+
+/* ── Erro geral ── */
+.erroBanner {
+  background: #1a0a0a;
+  border: 1px solid #7f1d1d;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  color: #fca5a5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.erroDetalhe {
+  font-size: 0.78rem;
+  color: #94a3b8;
+}
+
+.btnRetentar {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #e2e8f0;
+  padding: 8px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.btnRetentar:hover {
+  background: #334155;
+}
+
+/* ── Skeleton ── */
+.skeleton {
+  background: linear-gradient(90deg, #1e293b 25%, #273449 50%, #1e293b 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+
+.skeletonCard   { height: 100px; }
+.skeletonBtn    { height: 56px; }
+.skeletonTable  { height: 180px; }
+
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@media (max-width: 480px) {
+  .main { padding: 14px 16px; }
+}
