@@ -41,6 +41,15 @@
 | UC-04 — Configurar limites | Um valor de threshold negativo tipo `-5` passa pela validação e persiste no banco, o que faz a irrigação ficar acionando o tempo todo | Unit | Validação de entrada é lógica pura. Unit consegue testar todos os casos inválidos rapidamente, e qualquer mudança na validação vai aparecer imediatamente |
 | UC-05 — Histórico de leituras | Query sem índice em `SELECT * FROM leituras WHERE data BETWEEN ...` com 500k registros demora mais de 10 segundos, deixando o site inutilizável | System — Performance (v0.2) | Unit e integration não revelam degradação com volume real de dados. Precisa de teste de carga com dataset representativo. Fica pra v0.2 |
 
+### Linhas adicionadas na v0.2 (A1.8)
+
+| UC | Risco técnico concreto | Nível | Justificativa |
+|----|------------------------|-------|---------------|
+| UC-03 — Controle Manual (frontend) | Botão "Acionar" dispara múltiplos cliques antes da resposta chegar, enviando comandos duplicados para a bomba | Unit (Vitest) | Debounce via guard `actionStatus === 'sending'` — teste de unidade verifica que estado `sending` desabilita o botão durante requisição in-flight |
+| UC-04 — Configurações (frontend) | Threshold salvo como string `"50"` em vez de número `50` faz a comparação `umidadeSolo < threshold` retornar `true` sempre (coerção JS) | Unit (Vitest) | Lógica pura de validação e conversão de tipo — `Number(threshold)` explícito no `useSettings.salvar`. Unit test cobre sem depender de UI |
+| UC-05 — Histórico (frontend) | Renderizar 288 pontos no Recharts sem memoização trava o navegador ao trocar de período (re-render desnecessário) | System (manual) | Verificado manualmente: `React.memo` nos wrappers de gráfico e `useMemo` no hook garantem re-render só quando `periodo` muda |
+| E2E alerta → histórico | Usuário não consegue navegar da tela de alerta para o histórico — fluxo crítico de diagnóstico da planta | E2E (Playwright) | Playwright percorre o caminho completo: Dashboard → alerta visível → clique na aba Histórico → gráfico renderizado |
+
 ---
 
 ## 4. Níveis de teste aplicados ao projeto
