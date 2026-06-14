@@ -1,6 +1,9 @@
 // Mock plugável: substitui api.js sem mudar nenhum outro arquivo.
 // Para usar a API real, trocar o import em useSensorData.js de mockApi.js para api.js.
 
+// VITE_FORCE_ALERT=true faz umidadeSolo retornar 30% para disparar alerta (usado no E2E)
+const FORCE_ALERT = typeof import.meta !== 'undefined' && import.meta.env?.VITE_FORCE_ALERT === 'true'
+
 const MOCK_DATA = {
   id: 142,
   dataHora: '2026-05-31 14:32:05',
@@ -10,12 +13,15 @@ const MOCK_DATA = {
   condicaoCeu: 'ensolarado',
   estacao: 'outono',
   estaChovendo: false,
-  umidadeSolo: 68.0,
+  umidadeSolo: FORCE_ALERT ? 30.0 : 68.0,
   pHSolo: 6.20,
   alertaCritico: false,
   statusIrrigacao: 'DESLIGADO',
   modoManual: false,
 }
+
+// ── Contador de chamadas — métrica de observabilidade (só DEV) ──────────────
+export let fetchCallCount = 0
 
 // Histórico simulando um ciclo real: queda de umidade → irrigação automática → recuperação
 export const MOCK_HISTORICO = [
@@ -33,8 +39,17 @@ export const MOCK_HISTORICO = [
 export const MOCK_THRESHOLD = 55
 
 export async function fetchSensorData() {
+  fetchCallCount++
   await new Promise((resolve) => setTimeout(resolve, 800)) // simula latência de rede
   return { ...MOCK_DATA, dataHora: new Date().toISOString().replace('T', ' ').slice(0, 19) }
+}
+
+// ── Relatório semanal (UC-01 widget agregado) ────────────────────────────────
+import relatorioData from './data/relatorio-semanal.json'
+
+export async function fetchRelatorioSemanal() {
+  await new Promise((resolve) => setTimeout(resolve, 400))
+  return relatorioData
 }
 
 export async function acionarIrrigacao(ligar) {
