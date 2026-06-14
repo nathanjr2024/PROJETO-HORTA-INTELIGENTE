@@ -1,0 +1,22 @@
+[
+  {
+    "semana": "01/01–10/01",
+    "qtdIrrigacoes": 10,
+    "consumoAgua_litros": 320
+  },
+  {
+    "semana": "10/01–19/01",
+    "qtdIrrigacoes": 9,
+    "consumoAgua_litros": 305
+  },
+  {
+    "semana": "19/01–28/01",
+    "qtdIrrigacoes": 10,
+    "consumoAgua_litros": 305
+  },
+  {
+    "semana": "28/01–06/02",
+    "qtdIrrigacoes": 10,
+    "consumoAgua_litros": 245
+  }
+]
