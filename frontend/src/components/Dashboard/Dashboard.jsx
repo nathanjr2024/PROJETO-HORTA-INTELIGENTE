@@ -5,7 +5,7 @@ import IrrigationStatus from './IrrigationStatus.jsx'
 import styles from './Dashboard.module.css'
 
 export default function Dashboard() {
-  const { status, dados, erro, historico, threshold, retentar } = useSensorData()
+  const { status, dados, erro, historico, threshold, alertaAtivo, relatorio, retentar } = useSensorData()
 
   // ── Estado: carregando ──────────────────────────────────────────────────────
   if (status === 'loading') {
@@ -50,6 +50,12 @@ export default function Dashboard() {
   return (
     <div className={styles.container} data-testid={status === 'partial' ? 'estado-parcial' : 'estado-sucesso'}>
       <Header ultimaAtualizacao={dados?.dataHora} />
+
+      {alertaAtivo && (
+        <div className={styles.alertaUmidade} role="alert" data-testid="alerta-umidade">
+          ⚠ Umidade do solo abaixo do limiar — irrigação automática será acionada
+        </div>
+      )}
 
       {status === 'partial' && (
         <div className={styles.alertaParcial} role="alert" data-testid="banner-parcial">
@@ -110,6 +116,18 @@ export default function Dashboard() {
               modoManual={dados?.modoManual}
               alertaCritico={dados?.alertaCritico}
             />
+
+            {relatorio && relatorio.length > 0 && (
+              <div className={styles.relatorioSemanal} data-testid="relatorio-semanal">
+                <p className={styles.relatorioTitulo}>Resumo — semana atual</p>
+                <p className={styles.relatorioLinha}>
+                  💧 {relatorio[relatorio.length - 1].consumoAgua_litros}L consumidos
+                </p>
+                <p className={styles.relatorioLinha}>
+                  🔄 {relatorio[relatorio.length - 1].qtdIrrigacoes} irrigações
+                </p>
+              </div>
+            )}
           </div>
         </section>
       </main>
@@ -122,7 +140,7 @@ function Header({ ultimaAtualizacao }) {
     <header className={styles.header}>
       <div>
         <h1 className={styles.titulo}>🌿 Horta Inteligente</h1>
-        <p className={styles.subtitulo}>MONITORAMENTO &amp; CONTROLE · Release 1.0 MVP</p>
+        <p className={styles.subtitulo}>MONITORAMENTO &amp; CONTROLE · Release 2.0</p>
       </div>
       {ultimaAtualizacao && (
         <span className={styles.timestamp}>atualizado {ultimaAtualizacao.slice(11, 19)}</span>

@@ -1,5 +1,5 @@
-import Dashboard from './components/Dashboard/Dashboard.jsx'
+import AppShell from './components/AppShell/AppShell'
 
 export default function App() {
-  return <Dashboard />
+  return <AppShell />
 }

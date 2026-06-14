@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "timestampInicio": "2026-01-01 16:10:00",
+    "duracao_min": 7,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 60.8,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 5,
+    "timestampInicio": "2026-01-02 13:30:00",
+    "duracao_min": 7,
+    "umidadeSoloAntes": 39.7,
+    "umidadeSoloDepois": 67.8,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 9,
+    "timestampInicio": "2026-01-03 16:35:00",
+    "duracao_min": 7,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 60.8,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 10,
+    "timestampInicio": "2026-01-04 13:50:00",
+    "duracao_min": 3,
+    "umidadeSoloAntes": 39.7,
+    "umidadeSoloDepois": 63.0,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 14,
+    "timestampInicio": "2026-01-05 12:55:00",
+    "duracao_min": 8,
+    "umidadeSoloAntes": 40.0,
+    "umidadeSoloDepois": 69.2,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 18,
+    "timestampInicio": "2026-01-06 17:30:00",
+    "duracao_min": 7,
+    "umidadeSoloAntes": 40.0,
+    "umidadeSoloDepois": 62.2,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 22,
+    "timestampInicio": "2026-01-07 15:45:00",
+    "duracao_min": 5,
+    "umidadeSoloAntes": 39.8,
+    "umidadeSoloDepois": 63.6,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 24,
+    "timestampInicio": "2026-01-08 15:30:00",
+    "duracao_min": 6,
+    "umidadeSoloAntes": 39.8,
+    "umidadeSoloDepois": 59.9,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 27,
+    "timestampInicio": "2026-01-09 12:05:00",
+    "duracao_min": 6,
+    "umidadeSoloAntes": 39.7,
+    "umidadeSoloDepois": 64.4,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 31,
+    "timestampInicio": "2026-01-10 12:20:00",
+    "duracao_min": 8,
+    "umidadeSoloAntes": 39.8,
+    "umidadeSoloDepois": 67.3,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 34,
+    "timestampInicio": "2026-01-11 15:35:00",
+    "duracao_min": 7,
+    "umidadeSoloAntes": 39.1,
+    "umidadeSoloDepois": 65.2,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 37,
+    "timestampInicio": "2026-01-12 16:35:00",
+    "duracao_min": 7,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 68.8,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 41,
+    "timestampInicio": "2026-01-13 21:25:00",
+    "duracao_min": 4,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 62.8,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 44,
+    "timestampInicio": "2026-01-14 19:50:00",
+    "duracao_min": 7,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 64.9,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 48,
+    "timestampInicio": "2026-01-15 20:40:00",
+    "duracao_min": 4,
+    "umidadeSoloAntes": 40.0,
+    "umidadeSoloDepois": 69.3,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 52,
+    "timestampInicio": "2026-01-17 02:25:00",
+    "duracao_min": 8,
+    "umidadeSoloAntes": 40.0,
+    "umidadeSoloDepois": 66.9,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 55,
+    "timestampInicio": "2026-01-18 05:20:00",
+    "duracao_min": 8,
+    "umidadeSoloAntes": 40.0,
+    "umidadeSoloDepois": 67.7,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 59,
+    "timestampInicio": "2026-01-19 09:00:00",
+    "duracao_min": 8,
+    "umidadeSoloAntes": 40.0,
+    "umidadeSoloDepois": 62.0,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 62,
+    "timestampInicio": "2026-01-20 06:45:00",
+    "duracao_min": 8,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 65.5,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 65,
+    "timestampInicio": "2026-01-21 08:10:00",
+    "duracao_min": 5,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 66.9,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 68,
+    "timestampInicio": "2026-01-22 10:45:00",
+    "duracao_min": 4,
+    "umidadeSoloAntes": 39.7,
+    "umidadeSoloDepois": 68.5,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 72,
+    "timestampInicio": "2026-01-23 14:20:00",
+    "duracao_min": 6,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 63.2,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 76,
+    "timestampInicio": "2026-01-24 14:05:00",
+    "duracao_min": 3,
+    "umidadeSoloAntes": 39.5,
+    "umidadeSoloDepois": 62.6,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 80,
+    "timestampInicio": "2026-01-25 13:10:00",
+    "duracao_min": 8,
+    "umidadeSoloAntes": 39.6,
+    "umidadeSoloDepois": 62.9,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 82,
+    "timestampInicio": "2026-01-26 12:15:00",
+    "duracao_min": 8,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 69.8,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 85,
+    "timestampInicio": "2026-01-27 17:00:00",
+    "duracao_min": 5,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 67.4,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 89,
+    "timestampInicio": "2026-01-28 20:30:00",
+    "duracao_min": 6,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 60.3,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 93,
+    "timestampInicio": "2026-01-29 16:35:00",
+    "duracao_min": 4,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 59.9,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 95,
+    "timestampInicio": "2026-01-30 13:15:00",
+    "duracao_min": 4,
+    "umidadeSoloAntes": 39.6,
+    "umidadeSoloDepois": 62.0,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 98,
+    "timestampInicio": "2026-01-31 11:35:00",
+    "duracao_min": 3,
+    "umidadeSoloAntes": 40.0,
+    "umidadeSoloDepois": 68.0,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 102,
+    "timestampInicio": "2026-02-01 14:50:00",
+    "duracao_min": 5,
+    "umidadeSoloAntes": 39.8,
+    "umidadeSoloDepois": 68.8,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 106,
+    "timestampInicio": "2026-02-02 19:25:00",
+    "duracao_min": 8,
+    "umidadeSoloAntes": 40.0,
+    "umidadeSoloDepois": 65.5,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 110,
+    "timestampInicio": "2026-02-03 20:50:00",
+    "duracao_min": 3,
+    "umidadeSoloAntes": 40.0,
+    "umidadeSoloDepois": 64.7,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 114,
+    "timestampInicio": "2026-02-04 21:20:00",
+    "duracao_min": 4,
+    "umidadeSoloAntes": 40.0,
+    "umidadeSoloDepois": 64.8,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 117,
+    "timestampInicio": "2026-02-05 21:55:00",
+    "duracao_min": 8,
+    "umidadeSoloAntes": 40.0,
+    "umidadeSoloDepois": 60.0,
+    "acionadoPor": "automatico"
+  },
+  {
+    "id": 120,
+    "timestampInicio": "2026-02-06 17:35:00",
+    "duracao_min": 4,
+    "umidadeSoloAntes": 39.9,
+    "umidadeSoloDepois": 65.5,
+    "acionadoPor": "automatico"
+  }
+]
