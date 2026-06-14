@@ -41,6 +41,8 @@ describe('Dashboard — estado success', () => {
       erro: null,
       historico: HISTORICO_MOCK,
       threshold: 55,
+      alertaAtivo: false,
+      relatorio: null,
       retentar: vi.fn(),
     })
 
@@ -70,6 +72,8 @@ describe('Dashboard — estado loading', () => {
       erro: null,
       historico: [],
       threshold: 55,
+      alertaAtivo: false,
+      relatorio: null,
       retentar: vi.fn(),
     })
 
@@ -95,6 +99,8 @@ describe('Dashboard — estado error', () => {
       erro: 'HTTP 500: falha ao buscar dados dos sensores',
       historico: [],
       threshold: 55,
+      alertaAtivo: false,
+      relatorio: null,
       retentar: mockRetentar,
     })
 
@@ -122,6 +128,8 @@ describe('Dashboard — estado partial (sensor offline)', () => {
       erro: null,
       historico: HISTORICO_MOCK,
       threshold: 55,
+      alertaAtivo: false,
+      relatorio: null,
       retentar: vi.fn(),
     })
 

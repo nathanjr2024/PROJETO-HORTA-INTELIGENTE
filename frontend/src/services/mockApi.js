@@ -52,6 +52,23 @@ export async function fetchRelatorioSemanal() {
   return relatorioData
 }
 
+// ── Configurações (UC-04) ────────────────────────────────────────────────────
+let MOCK_CONFIG = { threshold: 55, pollingInterval: 30 }
+
+export async function fetchSettings() {
+  await new Promise((resolve) => setTimeout(resolve, 600))
+  return { ...MOCK_CONFIG }
+}
+
+export async function saveSettings(novaConfig) {
+  await new Promise((resolve) => setTimeout(resolve, 400))
+  if (novaConfig.threshold < 10 || novaConfig.threshold > 90) {
+    throw new Error('Threshold fora do intervalo permitido (10–90)')
+  }
+  MOCK_CONFIG = { ...MOCK_CONFIG, ...novaConfig }
+  return { mensagem: 'Configurações salvas', ...MOCK_CONFIG }
+}
+
 export async function acionarIrrigacao(ligar) {
   await new Promise((resolve) => setTimeout(resolve, 300))
   return {

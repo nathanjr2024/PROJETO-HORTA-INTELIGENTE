@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Dashboard from '../Dashboard/Dashboard'
+import Settings from '../Settings/Settings'
 import styles from './AppShell.module.css'
 
 const TELAS = [
@@ -18,15 +19,15 @@ function Placeholder({ nome }) {
   )
 }
 
-export default function AppShell({ ManualControl, Settings, History }) {
+export default function AppShell() {
   const [telaAtiva, setTelaAtiva] = useState('dashboard')
 
   function renderTela() {
     switch (telaAtiva) {
       case 'dashboard':     return <Dashboard />
-      case 'controle':      return ManualControl ? <ManualControl /> : <Placeholder nome="Controle Manual" />
-      case 'configuracoes': return Settings      ? <Settings />      : <Placeholder nome="Configurações" />
-      case 'historico':     return History       ? <History />       : <Placeholder nome="Histórico" />
+      case 'controle':      return <Placeholder nome="Controle Manual" />
+      case 'configuracoes': return <Settings />
+      case 'historico':     return <Placeholder nome="Histórico" />
       default:              return <Dashboard />
     }
   }
