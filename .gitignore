@@ -1,0 +1,32 @@
+# Dependências
+node_modules/
+
+# Dados sintéticos gerados (regeneráveis via gerar-dados-sinteticos.py)
+dados-sinteticos/
+
+# Build
+dist/
+build/
+
+# Cache
+.vite/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
