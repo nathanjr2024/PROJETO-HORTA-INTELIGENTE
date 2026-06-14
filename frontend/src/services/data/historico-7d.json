@@ -1,0 +1,842 @@
+[
+  {
+    "hora": "31/01 00h",
+    "umidade": 51.8,
+    "temperatura": 21.1
+  },
+  {
+    "hora": "31/01 01h",
+    "umidade": 48.9,
+    "temperatura": 21.6
+  },
+  {
+    "hora": "31/01 02h",
+    "umidade": 49.5,
+    "temperatura": 21.0
+  },
+  {
+    "hora": "31/01 03h",
+    "umidade": 47.7,
+    "temperatura": 22.2
+  },
+  {
+    "hora": "31/01 04h",
+    "umidade": 48.3,
+    "temperatura": 22.9
+  },
+  {
+    "hora": "31/01 05h",
+    "umidade": 48.1,
+    "temperatura": 25.0
+  },
+  {
+    "hora": "31/01 06h",
+    "umidade": 45.6,
+    "temperatura": 24.3
+  },
+  {
+    "hora": "31/01 07h",
+    "umidade": 45.2,
+    "temperatura": 26.0
+  },
+  {
+    "hora": "31/01 08h",
+    "umidade": 45.0,
+    "temperatura": 27.3
+  },
+  {
+    "hora": "31/01 09h",
+    "umidade": 44.2,
+    "temperatura": 29.4
+  },
+  {
+    "hora": "31/01 10h",
+    "umidade": 42.0,
+    "temperatura": 28.8
+  },
+  {
+    "hora": "31/01 11h",
+    "umidade": 39.9,
+    "temperatura": 28.9
+  },
+  {
+    "hora": "31/01 12h",
+    "umidade": 67.7,
+    "temperatura": 30.0
+  },
+  {
+    "hora": "31/01 13h",
+    "umidade": 68.0,
+    "temperatura": 33.0
+  },
+  {
+    "hora": "31/01 14h",
+    "umidade": 63.8,
+    "temperatura": 34.3
+  },
+  {
+    "hora": "31/01 15h",
+    "umidade": 63.1,
+    "temperatura": 30.5
+  },
+  {
+    "hora": "31/01 16h",
+    "umidade": 62.6,
+    "temperatura": 31.3
+  },
+  {
+    "hora": "31/01 17h",
+    "umidade": 61.5,
+    "temperatura": 29.8
+  },
+  {
+    "hora": "31/01 18h",
+    "umidade": 60.9,
+    "temperatura": 29.1
+  },
+  {
+    "hora": "31/01 19h",
+    "umidade": 59.1,
+    "temperatura": 27.4
+  },
+  {
+    "hora": "31/01 20h",
+    "umidade": 57.6,
+    "temperatura": 25.6
+  },
+  {
+    "hora": "31/01 21h",
+    "umidade": 58.3,
+    "temperatura": 27.2
+  },
+  {
+    "hora": "31/01 22h",
+    "umidade": 57.6,
+    "temperatura": 25.0
+  },
+  {
+    "hora": "31/01 23h",
+    "umidade": 56.9,
+    "temperatura": 23.7
+  },
+  {
+    "hora": "01/02 00h",
+    "umidade": 55.4,
+    "temperatura": 22.9
+  },
+  {
+    "hora": "01/02 01h",
+    "umidade": 52.6,
+    "temperatura": 21.1
+  },
+  {
+    "hora": "01/02 02h",
+    "umidade": 52.7,
+    "temperatura": 23.0
+  },
+  {
+    "hora": "01/02 03h",
+    "umidade": 52.0,
+    "temperatura": 22.5
+  },
+  {
+    "hora": "01/02 04h",
+    "umidade": 51.6,
+    "temperatura": 21.7
+  },
+  {
+    "hora": "01/02 05h",
+    "umidade": 51.0,
+    "temperatura": 23.2
+  },
+  {
+    "hora": "01/02 06h",
+    "umidade": 48.4,
+    "temperatura": 26.2
+  },
+  {
+    "hora": "01/02 07h",
+    "umidade": 49.2,
+    "temperatura": 27.0
+  },
+  {
+    "hora": "01/02 08h",
+    "umidade": 47.4,
+    "temperatura": 25.7
+  },
+  {
+    "hora": "01/02 09h",
+    "umidade": 47.0,
+    "temperatura": 27.8
+  },
+  {
+    "hora": "01/02 10h",
+    "umidade": 46.6,
+    "temperatura": 30.4
+  },
+  {
+    "hora": "01/02 11h",
+    "umidade": 44.4,
+    "temperatura": 29.2
+  },
+  {
+    "hora": "01/02 12h",
+    "umidade": 43.6,
+    "temperatura": 33.7
+  },
+  {
+    "hora": "01/02 13h",
+    "umidade": 42.8,
+    "temperatura": 29.9
+  },
+  {
+    "hora": "01/02 14h",
+    "umidade": 40.7,
+    "temperatura": 32.8
+  },
+  {
+    "hora": "01/02 15h",
+    "umidade": 70.3,
+    "temperatura": 30.1
+  },
+  {
+    "hora": "01/02 16h",
+    "umidade": 67.1,
+    "temperatura": 33.7
+  },
+  {
+    "hora": "01/02 17h",
+    "umidade": 65.8,
+    "temperatura": 28.6
+  },
+  {
+    "hora": "01/02 18h",
+    "umidade": 65.5,
+    "temperatura": 30.8
+  },
+  {
+    "hora": "01/02 19h",
+    "umidade": 63.4,
+    "temperatura": 27.2
+  },
+  {
+    "hora": "01/02 20h",
+    "umidade": 62.6,
+    "temperatura": 28.1
+  },
+  {
+    "hora": "01/02 21h",
+    "umidade": 62.3,
+    "temperatura": 25.2
+  },
+  {
+    "hora": "01/02 22h",
+    "umidade": 61.3,
+    "temperatura": 22.8
+  },
+  {
+    "hora": "01/02 23h",
+    "umidade": 59.8,
+    "temperatura": 21.5
+  },
+  {
+    "hora": "02/02 00h",
+    "umidade": 59.2,
+    "temperatura": 20.7
+  },
+  {
+    "hora": "02/02 01h",
+    "umidade": 60.6,
+    "temperatura": 23.2
+  },
+  {
+    "hora": "02/02 02h",
+    "umidade": 58.0,
+    "temperatura": 20.8
+  },
+  {
+    "hora": "02/02 03h",
+    "umidade": 57.6,
+    "temperatura": 22.4
+  },
+  {
+    "hora": "02/02 04h",
+    "umidade": 55.6,
+    "temperatura": 23.0
+  },
+  {
+    "hora": "02/02 05h",
+    "umidade": 55.1,
+    "temperatura": 25.9
+  },
+  {
+    "hora": "02/02 06h",
+    "umidade": 53.4,
+    "temperatura": 22.6
+  },
+  {
+    "hora": "02/02 07h",
+    "umidade": 53.4,
+    "temperatura": 24.3
+  },
+  {
+    "hora": "02/02 08h",
+    "umidade": 52.2,
+    "temperatura": 27.6
+  },
+  {
+    "hora": "02/02 09h",
+    "umidade": 51.8,
+    "temperatura": 29.4
+  },
+  {
+    "hora": "02/02 10h",
+    "umidade": 49.9,
+    "temperatura": 29.5
+  },
+  {
+    "hora": "02/02 11h",
+    "umidade": 49.6,
+    "temperatura": 31.7
+  },
+  {
+    "hora": "02/02 12h",
+    "umidade": 45.6,
+    "temperatura": 31.2
+  },
+  {
+    "hora": "02/02 13h",
+    "umidade": 47.4,
+    "temperatura": 32.9
+  },
+  {
+    "hora": "02/02 14h",
+    "umidade": 45.6,
+    "temperatura": 32.3
+  },
+  {
+    "hora": "02/02 15h",
+    "umidade": 44.4,
+    "temperatura": 33.5
+  },
+  {
+    "hora": "02/02 16h",
+    "umidade": 42.7,
+    "temperatura": 29.5
+  },
+  {
+    "hora": "02/02 17h",
+    "umidade": 43.0,
+    "temperatura": 31.1
+  },
+  {
+    "hora": "02/02 18h",
+    "umidade": 40.6,
+    "temperatura": 29.4
+  },
+  {
+    "hora": "02/02 19h",
+    "umidade": 41.1,
+    "temperatura": 30.5
+  },
+  {
+    "hora": "02/02 20h",
+    "umidade": 65.1,
+    "temperatura": 27.2
+  },
+  {
+    "hora": "02/02 21h",
+    "umidade": 64.1,
+    "temperatura": 26.4
+  },
+  {
+    "hora": "02/02 22h",
+    "umidade": 62.9,
+    "temperatura": 23.4
+  },
+  {
+    "hora": "02/02 23h",
+    "umidade": 61.7,
+    "temperatura": 23.0
+  },
+  {
+    "hora": "03/02 00h",
+    "umidade": 60.7,
+    "temperatura": 23.9
+  },
+  {
+    "hora": "03/02 01h",
+    "umidade": 59.9,
+    "temperatura": 22.7
+  },
+  {
+    "hora": "03/02 02h",
+    "umidade": 59.5,
+    "temperatura": 25.1
+  },
+  {
+    "hora": "03/02 03h",
+    "umidade": 58.9,
+    "temperatura": 19.8
+  },
+  {
+    "hora": "03/02 04h",
+    "umidade": 58.4,
+    "temperatura": 25.0
+  },
+  {
+    "hora": "03/02 05h",
+    "umidade": 56.3,
+    "temperatura": 21.9
+  },
+  {
+    "hora": "03/02 06h",
+    "umidade": 55.5,
+    "temperatura": 26.0
+  },
+  {
+    "hora": "03/02 07h",
+    "umidade": 54.9,
+    "temperatura": 29.1
+  },
+  {
+    "hora": "03/02 08h",
+    "umidade": 53.3,
+    "temperatura": 26.3
+  },
+  {
+    "hora": "03/02 09h",
+    "umidade": 53.9,
+    "temperatura": 28.7
+  },
+  {
+    "hora": "03/02 10h",
+    "umidade": 51.7,
+    "temperatura": 29.8
+  },
+  {
+    "hora": "03/02 11h",
+    "umidade": 51.9,
+    "temperatura": 31.7
+  },
+  {
+    "hora": "03/02 12h",
+    "umidade": 49.1,
+    "temperatura": 30.1
+  },
+  {
+    "hora": "03/02 13h",
+    "umidade": 48.1,
+    "temperatura": 31.8
+  },
+  {
+    "hora": "03/02 14h",
+    "umidade": 45.5,
+    "temperatura": 30.0
+  },
+  {
+    "hora": "03/02 15h",
+    "umidade": 46.9,
+    "temperatura": 31.4
+  },
+  {
+    "hora": "03/02 16h",
+    "umidade": 45.2,
+    "temperatura": 31.4
+  },
+  {
+    "hora": "03/02 17h",
+    "umidade": 44.1,
+    "temperatura": 29.9
+  },
+  {
+    "hora": "03/02 18h",
+    "umidade": 42.8,
+    "temperatura": 29.1
+  },
+  {
+    "hora": "03/02 19h",
+    "umidade": 41.1,
+    "temperatura": 26.4
+  },
+  {
+    "hora": "03/02 20h",
+    "umidade": 41.5,
+    "temperatura": 28.4
+  },
+  {
+    "hora": "03/02 21h",
+    "umidade": 66.3,
+    "temperatura": 25.2
+  },
+  {
+    "hora": "03/02 22h",
+    "umidade": 64.4,
+    "temperatura": 24.0
+  },
+  {
+    "hora": "03/02 23h",
+    "umidade": 62.5,
+    "temperatura": 22.7
+  },
+  {
+    "hora": "04/02 00h",
+    "umidade": 62.5,
+    "temperatura": 21.9
+  },
+  {
+    "hora": "04/02 01h",
+    "umidade": 62.1,
+    "temperatura": 21.5
+  },
+  {
+    "hora": "04/02 02h",
+    "umidade": 58.9,
+    "temperatura": 24.0
+  },
+  {
+    "hora": "04/02 03h",
+    "umidade": 59.7,
+    "temperatura": 21.8
+  },
+  {
+    "hora": "04/02 04h",
+    "umidade": 58.3,
+    "temperatura": 23.5
+  },
+  {
+    "hora": "04/02 05h",
+    "umidade": 57.6,
+    "temperatura": 21.9
+  },
+  {
+    "hora": "04/02 06h",
+    "umidade": 56.2,
+    "temperatura": 24.6
+  },
+  {
+    "hora": "04/02 07h",
+    "umidade": 55.7,
+    "temperatura": 27.1
+  },
+  {
+    "hora": "04/02 08h",
+    "umidade": 54.5,
+    "temperatura": 26.5
+  },
+  {
+    "hora": "04/02 09h",
+    "umidade": 53.9,
+    "temperatura": 28.9
+  },
+  {
+    "hora": "04/02 10h",
+    "umidade": 52.9,
+    "temperatura": 28.2
+  },
+  {
+    "hora": "04/02 11h",
+    "umidade": 51.6,
+    "temperatura": 31.2
+  },
+  {
+    "hora": "04/02 12h",
+    "umidade": 50.1,
+    "temperatura": 31.2
+  },
+  {
+    "hora": "04/02 13h",
+    "umidade": 48.5,
+    "temperatura": 33.4
+  },
+  {
+    "hora": "04/02 14h",
+    "umidade": 48.3,
+    "temperatura": 30.8
+  },
+  {
+    "hora": "04/02 15h",
+    "umidade": 47.3,
+    "temperatura": 29.4
+  },
+  {
+    "hora": "04/02 16h",
+    "umidade": 43.9,
+    "temperatura": 29.2
+  },
+  {
+    "hora": "04/02 17h",
+    "umidade": 43.4,
+    "temperatura": 30.4
+  },
+  {
+    "hora": "04/02 18h",
+    "umidade": 44.8,
+    "temperatura": 28.4
+  },
+  {
+    "hora": "04/02 19h",
+    "umidade": 42.5,
+    "temperatura": 29.3
+  },
+  {
+    "hora": "04/02 20h",
+    "umidade": 42.3,
+    "temperatura": 25.7
+  },
+  {
+    "hora": "04/02 21h",
+    "umidade": 41.1,
+    "temperatura": 23.7
+  },
+  {
+    "hora": "04/02 22h",
+    "umidade": 65.0,
+    "temperatura": 24.7
+  },
+  {
+    "hora": "04/02 23h",
+    "umidade": 63.8,
+    "temperatura": 23.9
+  },
+  {
+    "hora": "05/02 00h",
+    "umidade": 60.9,
+    "temperatura": 22.2
+  },
+  {
+    "hora": "05/02 01h",
+    "umidade": 61.1,
+    "temperatura": 18.9
+  },
+  {
+    "hora": "05/02 02h",
+    "umidade": 59.8,
+    "temperatura": 20.6
+  },
+  {
+    "hora": "05/02 03h",
+    "umidade": 59.2,
+    "temperatura": 21.4
+  },
+  {
+    "hora": "05/02 04h",
+    "umidade": 59.1,
+    "temperatura": 22.6
+  },
+  {
+    "hora": "05/02 05h",
+    "umidade": 57.8,
+    "temperatura": 22.8
+  },
+  {
+    "hora": "05/02 06h",
+    "umidade": 56.3,
+    "temperatura": 22.2
+  },
+  {
+    "hora": "05/02 07h",
+    "umidade": 55.0,
+    "temperatura": 25.5
+  },
+  {
+    "hora": "05/02 08h",
+    "umidade": 55.5,
+    "temperatura": 26.2
+  },
+  {
+    "hora": "05/02 09h",
+    "umidade": 53.8,
+    "temperatura": 26.9
+  },
+  {
+    "hora": "05/02 10h",
+    "umidade": 52.4,
+    "temperatura": 30.8
+  },
+  {
+    "hora": "05/02 11h",
+    "umidade": 52.2,
+    "temperatura": 30.5
+  },
+  {
+    "hora": "05/02 12h",
+    "umidade": 50.2,
+    "temperatura": 33.4
+  },
+  {
+    "hora": "05/02 13h",
+    "umidade": 50.1,
+    "temperatura": 31.4
+  },
+  {
+    "hora": "05/02 14h",
+    "umidade": 47.4,
+    "temperatura": 32.1
+  },
+  {
+    "hora": "05/02 15h",
+    "umidade": 47.7,
+    "temperatura": 32.6
+  },
+  {
+    "hora": "05/02 16h",
+    "umidade": 44.8,
+    "temperatura": 30.7
+  },
+  {
+    "hora": "05/02 17h",
+    "umidade": 44.6,
+    "temperatura": 31.6
+  },
+  {
+    "hora": "05/02 18h",
+    "umidade": 44.7,
+    "temperatura": 27.9
+  },
+  {
+    "hora": "05/02 19h",
+    "umidade": 41.9,
+    "temperatura": 27.1
+  },
+  {
+    "hora": "05/02 20h",
+    "umidade": 42.4,
+    "temperatura": 25.9
+  },
+  {
+    "hora": "05/02 21h",
+    "umidade": 40.6,
+    "temperatura": 24.8
+  },
+  {
+    "hora": "05/02 22h",
+    "umidade": 60.3,
+    "temperatura": 24.3
+  },
+  {
+    "hora": "05/02 23h",
+    "umidade": 59.4,
+    "temperatura": 22.5
+  },
+  {
+    "hora": "06/02 00h",
+    "umidade": 58.2,
+    "temperatura": 23.1
+  },
+  {
+    "hora": "06/02 01h",
+    "umidade": 58.8,
+    "temperatura": 22.9
+  },
+  {
+    "hora": "06/02 02h",
+    "umidade": 55.3,
+    "temperatura": 23.4
+  },
+  {
+    "hora": "06/02 03h",
+    "umidade": 55.1,
+    "temperatura": 21.9
+  },
+  {
+    "hora": "06/02 04h",
+    "umidade": 55.0,
+    "temperatura": 21.8
+  },
+  {
+    "hora": "06/02 05h",
+    "umidade": 54.1,
+    "temperatura": 26.2
+  },
+  {
+    "hora": "06/02 06h",
+    "umidade": 53.3,
+    "temperatura": 24.1
+  },
+  {
+    "hora": "06/02 07h",
+    "umidade": 52.6,
+    "temperatura": 23.8
+  },
+  {
+    "hora": "06/02 08h",
+    "umidade": 49.9,
+    "temperatura": 26.0
+  },
+  {
+    "hora": "06/02 09h",
+    "umidade": 49.2,
+    "temperatura": 26.6
+  },
+  {
+    "hora": "06/02 10h",
+    "umidade": 49.0,
+    "temperatura": 28.9
+  },
+  {
+    "hora": "06/02 11h",
+    "umidade": 46.7,
+    "temperatura": 29.6
+  },
+  {
+    "hora": "06/02 12h",
+    "umidade": 47.8,
+    "temperatura": 30.8
+  },
+  {
+    "hora": "06/02 13h",
+    "umidade": 44.7,
+    "temperatura": 31.8
+  },
+  {
+    "hora": "06/02 14h",
+    "umidade": 42.8,
+    "temperatura": 30.7
+  },
+  {
+    "hora": "06/02 15h",
+    "umidade": 42.6,
+    "temperatura": 33.0
+  },
+  {
+    "hora": "06/02 16h",
+    "umidade": 41.6,
+    "temperatura": 31.3
+  },
+  {
+    "hora": "06/02 17h",
+    "umidade": 40.2,
+    "temperatura": 31.6
+  },
+  {
+    "hora": "06/02 18h",
+    "umidade": 65.8,
+    "temperatura": 26.6
+  },
+  {
+    "hora": "06/02 19h",
+    "umidade": 63.5,
+    "temperatura": 27.0
+  },
+  {
+    "hora": "06/02 20h",
+    "umidade": 62.9,
+    "temperatura": 26.1
+  },
+  {
+    "hora": "06/02 21h",
+    "umidade": 62.6,
+    "temperatura": 25.9
+  },
+  {
+    "hora": "06/02 22h",
+    "umidade": 61.5,
+    "temperatura": 23.5
+  },
+  {
+    "hora": "06/02 23h",
+    "umidade": 60.8,
+    "temperatura": 22.3
+  }
+]
