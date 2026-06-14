@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Dashboard from '../Dashboard/Dashboard'
+import ManualControl from '../ManualControl/ManualControl'
 import Settings from '../Settings/Settings'
+import History from '../History/History'
 import styles from './AppShell.module.css'
 
 const TELAS = [
@@ -10,24 +12,15 @@ const TELAS = [
   { id: 'historico',      label: 'Histórico',  emoji: '📊', testId: 'nav-historico' },
 ]
 
-function Placeholder({ nome }) {
-  return (
-    <div className={styles.placeholder}>
-      <span className={styles.placeholderIcon}>🚧</span>
-      <p>Tela <strong>{nome}</strong> em construção…</p>
-    </div>
-  )
-}
-
 export default function AppShell() {
   const [telaAtiva, setTelaAtiva] = useState('dashboard')
 
   function renderTela() {
     switch (telaAtiva) {
       case 'dashboard':     return <Dashboard />
-      case 'controle':      return <Placeholder nome="Controle Manual" />
+      case 'controle':      return <ManualControl />
       case 'configuracoes': return <Settings />
-      case 'historico':     return <Placeholder nome="Histórico" />
+      case 'historico':     return <History />
       default:              return <Dashboard />
     }
   }

@@ -7,8 +7,14 @@ import AppShell from './AppShell.jsx'
 vi.mock('../Dashboard/Dashboard', () => ({
   default: () => <div data-testid="tela-dashboard">Dashboard</div>,
 }))
+vi.mock('../ManualControl/ManualControl', () => ({
+  default: () => <div data-testid="tela-controle">ManualControl</div>,
+}))
 vi.mock('../Settings/Settings', () => ({
   default: () => <div data-testid="tela-settings">Settings</div>,
+}))
+vi.mock('../History/History', () => ({
+  default: () => <div data-testid="tela-historico">History</div>,
 }))
 
 describe('AppShell — navegação por abas', () => {
